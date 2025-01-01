@@ -251,7 +251,7 @@ span{
 	border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
 	background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
 	color:#FFFFFF;
-	display: none;
+	display:none;
 	animation: fade 0.2s;
 }
 
@@ -324,7 +324,7 @@ span{
     border-radius: 2px solid rgba(0,0,0,0.03);
 }
 
-.Notification h3{
+.Notification h1{
     font-size: 2rem;
     color: rgb(56,56,56);
 }
@@ -378,4 +378,105 @@ footer{
 footer p{
     text-align: center;
     color: #f2f2f2ff;
+}
+
+/*mobile vews */
+@media (max-width:768px){
+    .logo{
+        left: 12px;
+        top: 3px;
+    }
+    .logo a {
+        letter-spacing: -1px;
+        text-shadow: 1px 1px rgba(136,100,237);
+    }
+    .searchArea{
+        right: 50px;
+        top: 7px;
+        width: 120px;
+        height: 35px;
+
+    }
+    .section1 img{
+        height: 122px;
+    }
+    .section1botton h1 {
+        letter-spacing: 12px;
+    }
+    .section1botton{
+        top: 16%;
+        right: -21%;
+    }
+    .section1botton h1, h2{
+        font-size: 1rem;
+        line-height: 29px;
+    }
+    .btn{
+        width: 89px;
+        height: 23px;
+        letter-spacing: 1px;
+    }
+    .IconArea{
+        left: 12px;
+        top: 26%;
+    }
+    .productSection{
+        width: 90%;
+        margin-top: 89px;
+        padding: 14px 10px;
+    }
+    .productBox{
+        height: 229px;
+        margin: 7px 9px;
+    }
+    .productSection > h3{
+        letter-spacing: 1px;
+        margin: 7px;
+        font-size: 1rem;
+    }
+    .about{
+        width: 70%;
+    }
+    .BuyBtn{
+        width: 98px;
+        height: 26px;
+    }
+    .aboutbox h4{
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 6px;
+        margin-bottom: 5px;
+    }
+    .aboutbox h1{
+        font-size: 2rem;
+
+    }
+    .aboutbox{
+        width: 49%;
+
+    }
+    .aboutbox img{
+        width: 138%;
+        height: 32%;
+    }
+    .Notification{
+        width: 89%;
+        height: 154px;
+        margin-bottom: 14px;
+
+    }
+    .NotificationInput{
+        width: 259px;
+        height: 32px;
+        margin-top: 19px;
+    }
+    .Notification h1{
+        font-size: 1rem;
+    }
+    
+    
+
+
+
+
 }
